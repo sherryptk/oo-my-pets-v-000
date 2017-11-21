@@ -50,6 +50,8 @@ class Owner
     @pets.each do |k,v|
       v.each do |v|
         v.mood="happy"
+      end
+    end
   end
 
   def play_with_cats
