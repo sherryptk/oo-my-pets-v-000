@@ -71,5 +71,6 @@ def list_pets
     "I have #{k.size} #{k}, "
     binding.pry
   end
+  end
 
 end
