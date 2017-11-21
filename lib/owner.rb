@@ -66,5 +66,10 @@ class Owner
     @pets.clear
   end
 
+def list_pets
+  @pets.each do |k,v|
+    "I have #{k.size} #{k}, " 
+    binding.pry
+  end
 
 end
