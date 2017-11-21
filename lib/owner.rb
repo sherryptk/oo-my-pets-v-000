@@ -67,9 +67,7 @@ class Owner
   end
 
 def list_pets
-  # @pets.each do |k,v|
-    "I have #{@pets[:fishes].size} fish, #{@pets[:dogs].size}dog(s), and #{@pets[:cats].size} cat(s)."
-  end
+    "I have #{@pets[:fishes].length} fish, #{@pets[:dogs].size}dog(s), and #{@pets[:cats].size} cat(s)."
   end
 
 end
