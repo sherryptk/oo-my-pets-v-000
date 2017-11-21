@@ -63,7 +63,7 @@ class Owner
         v.mood = "nervous"
       end
     end
-    @pets.empty
+    @pets.clear
   end
 
 
