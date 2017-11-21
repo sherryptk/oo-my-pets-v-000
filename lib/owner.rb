@@ -62,7 +62,11 @@ class Owner
   end
 
   def feed_fish
-    @pets[:fishes][0].mood = "happy"
+    @pets.each do |k,v|
+      v.each do |v|
+        v.mood="happy"
+      end
+    end
   end
 
   def sell_pets
